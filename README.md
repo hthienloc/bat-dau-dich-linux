@@ -3,12 +3,11 @@ Hướng dẫn bắt đầu dịch tài liệu sang tiếng Việt dành cho ng�
 
 **TODO**:
 - Thêm video cách dịch thực tế.
-- Thêm ví dụ để dễ hình dung.
-- Vai trò của từng thành viên (Admin, Translator, Reviewer).
+- Thêm nhiều ví dụ để dễ hình dung.
 
 ### Ứng dụng cần tải
 
-- Visual Studio Code (cài tiện ích "Open in External App")
+- Visual Studio Code (cần cài tiện ích "Open in External App")
 - Chọn 1 trong các phần mềm dịch PO (khuyên dùng bản Flatpak để luôn có bản mới nhất):  
   - Poedit  
   - Gtranslator (giao diện đơn giản nhất)  
@@ -22,12 +21,12 @@ Mục này giúp mọi người dịch cùng một kiểu, tránh lộn xộn.
 
 #### Các vấn đề đặc biệt cần nhớ
 
-- **KDE**: Các chuỗi có ngữ cảnh `X-KDE-Keywords` hoặc `Keywords` → đây là từ khóa tìm kiếm.  
+- **KDE**: Các chuỗi ngữ cảnh có chứa `X-KDE-Keywords` hoặc `Keywords` → đây là từ khóa tìm kiếm.  
   → Khi dịch **phải giữ nguyên chuỗi tiếng Anh** trong bản dịch.  
   → Ví dụ nguồn: `power,energy,battery`  
   → Dịch: `power,energy,batter,năng lượng,pin,nguồn điện`
 
-- **GNOME**: Các chuỗi có ngữ cảnh chứa từ `desktop` → cũng là từ khóa tìm kiếm.  
+- **GNOME**: Các chuỗi ngữ cảnh có chứa từ `desktop` → cũng là từ khóa tìm kiếm.  
   → Tương tự: để nguyên cụm tiếng Anh, sau đó thêm đoạn dịch tiếng Việt sau.  
 
 ![Ví dụ điển hình khi dịch từ khóa](assets/images/vi_du_dien_hinh.png)
@@ -63,28 +62,35 @@ Version Control Plugin for File Views
 #### Viết số
 
 - Phần thập phân: dấu phẩy → 3,14  
-- Hàng nghìn: dấu chấm hoặc **dấu cách** (ưu tiên) → 1.000.000 hoặc 1 000 000 (không dùng cho năm)  
+- Hàng nghìn: dấu cách → 1 000 000 (không dùng cho năm)  
 - Phiên bản phần mềm: dấu chấm → 24.04.1
 
 #### Viết tắt
 
 - Không dịch các từ viết tắt phổ biến toàn cầu: KDE, GNU, GPL, URL, HTTP…  
   → Nếu nguồn có giải thích: dịch phần giải thích, giữ nguyên viết tắt.  
-  → Ví dụ: Uniform Resource Locator (URL) → Mã định vị tài nguyên thống nhất (URL)
+  → Ví dụ: Uniform Resource Locator (URL) → Mã định vị tài nguyên thống nhất (Uniform Resource Locator - URL)
 
 > **Trường hợp đặc biệt**  
-> SAR (Hồng Kông, Ma Cao) → dịch thành **Đặc khu hành chính** (vì ít người biết SAR)
+> SAR (Hồng Kông, Ma Cao) → dịch thành Đặc khu hành chính (vì ít người biết SAR)
 
-- Bảng viết tắt tiếng Việt chuẩn: xem tại [KDE l10n-vi/styleguide/abbr](https://l10n.kde.org/docs/translation-howto/abbr.html) *Không mở được*
+- Bảng viết tắt tiếng Việt chuẩn: xem tại *Không thể truy cập được*
 
 #### Viết đơn vị đo & tiền tố
 
 Phiên âm tiền tố + dịch đơn vị:  
-millisecond → **mi-li giây**  
-kilobyte → **ki-lô-bai** hoặc **KB** (giữ nguyên nếu kèm số)
+millisecond → mi-li giây  
+kilobyte → KB (giữ nguyên nếu kèm số)
 
 #### Dấu câu
 
 Dùng đúng dấu nháy của nguồn:  
 - Dấu nháy kép tiếng Anh → “…”  
-- Dấu nháy đơn → ‘…’  
+- Dấu nháy đơn → ‘…’
+
+
+### Các kênh liên lạc & trao đổi
+[Tham gia Trello](https://trello.com/invite/b/693410e22376cc3504be953c/ATTI58145b7a72edb29857e031d4288fac0744222039/linux-l10n-hub)
+[Trello Hub Chính](https://trello.com/b/CGulCDZa/linux-l10n-hub)
+
+TODO [Discord]()
